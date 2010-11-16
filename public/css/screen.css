@@ -1,0 +1,80 @@
+/*
+ * Main stylesheet for IconStore
+ * (c) Jan Palounek 2010 
+ */
+
+body {
+	font: 16px/1.5 "Gill Sans", "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+	background-color: white;
+}
+
+#list img {
+	width: 60px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#list img:hover {
+	width: 100px;
+	padding-left: 0px;
+	padding-right:0px;	
+	padding-bottom: 0px;
+	padding-top: 0px;	
+}
+
+.png {
+	color: black;
+}
+
+.ico {
+	color: red;
+}
+
+.not_supported {
+	color: black;
+	font-style: italic;
+}
+
+#head {
+	margin-top: -10px;
+	margin-left: -8px;
+	margin-right: -8px;			
+	padding-top: 1px;
+	padding-left: 3%;		
+	padding-bottom: 1px;		
+	background-image: url(../gfx/head_bg10.png);
+	background-repeat: repeat-x;	
+}
+
+#head h1 {
+	font-size: 35px;
+	font-style: bold;
+	text-shadow: 1px 1px 7px #111;
+	color: whitesmoke;	
+	margin-top: 1%;	
+	padding-bottom: 10px;
+}
+
+#head h3 {
+	color: #fd0006;	
+	text-shadow: 1px 1px 20px #cdcdd5;		
+	font-size: 15px;	
+	margin-top: -6.3%;
+	margin-left: 14.5%;	
+	padding-bottom: 4%;
+}
+
+#foot {		
+	margin-left: -8px;
+	margin-right: -8px;		
+	padding-top: 6px;
+	padding-bottom: 8px;	
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	background-image: url(../gfx/foot_bg1.png);
+	background-color: lightblue;
+	background-repeat: repeat-x;
+}

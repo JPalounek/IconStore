@@ -1,0 +1,36 @@
+IconStore
+________
+
+The IconStore is open source tool for managing your UI Icons.
+Now its in alfa version and now you can
+- View your icons gallery
+  - Its recognizing icons types
+     .ico files has red-colored gallery name
+     .png files has red-colored gallery name
+	 .jpg files has green-colored gallery name (not running now)
+	 other files has blue gallery name
+
+In future you will can manage your gallery. It mean you will can
+- Replace icons between galleries
+- Search for special icon what you need
+- Deleting icons
+- Archiving icons (not will be in live galleries , but 
+  you will can access them by special page)
+
+Complete TODO list you can see on http://palounek.com/iconstore/index.php#todos
+
+Its writen in PHP 5.3. It supports namespaces.
+
+IconStore use this 3rdParty software
+- Nette framework - by David Grudl (Nette foundation) - www.nette.org
+... now its all
+
+System homepage is
+http://www.palounek.com/iconstore/index.php
+
+License is on
+http://palounek.com/iconstore/index.php#license
+
+(c) Jan Palounek 2010 
+jan@palounek.com
+http://palounek.com
